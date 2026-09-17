@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #0E0B1A;
+  color: #F3EFE6;
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #0E0B1A;
+}
+::-webkit-scrollbar-thumb {
+  background: #241A44;
+  border-radius: 10px;
+}
+
+.Toastify__toast {
+  font-family: 'Inter', system-ui, sans-serif;
+  font-size: 14px;
+}
