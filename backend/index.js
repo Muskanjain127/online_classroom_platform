@@ -49,7 +49,7 @@ app.get('/', (req, res) => {
 })
 
 app.get('/getuserdata', (req, res) => {
-    res.send('Harshal Jain , 45 , Male')
+    res.send('Muskan Jain , 20, Female')
 })
 
 app.listen(port, () => {
